@@ -144,6 +144,10 @@ IMPORTANT:
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("API Running 🚀");
+});
+
 // 🔥 PORT
 const PORT = process.env.PORT || 5000;
 

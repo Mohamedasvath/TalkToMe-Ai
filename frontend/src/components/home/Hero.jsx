@@ -82,10 +82,10 @@ export default function HeroSection({
       </AnimatePresence>
 
       {/* OVERLAY */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/35 to-black/60 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/35 to-black/60 " />
 
       {/* LIGHT FOG */}
-      <div className="absolute inset-0 bg-white/[0.03] backdrop-blur-[1px] z-10" />
+      <div className="absolute inset-0 bg-white/[0.03] backdrop-blur-[0.2] " />
 
       {/* MOUNTAIN FADE */}
       <div className="absolute bottom-0 left-0 w-full h-[30vh] bg-gradient-to-t from-black/70 to-transparent z-10" />

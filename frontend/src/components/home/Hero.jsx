@@ -12,21 +12,21 @@ import {
 
 const HERO_SLIDES = [
   {
-    img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1525824236856-8c0a31dfe3be?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title1: "Find Your",
     title2: "Inner Peace",
     sub: "A calm space to talk, breathe, heal, and reconnect with yourself through guided emotional support.",
     glow: "99,102,241",
   },
   {
-    img: "https://images.unsplash.com/photo-1604078893234-ff3a1a5d5292?q=80&w=661&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://plus.unsplash.com/premium_photo-1669482964423-32a663e2a441?q=80&w=718&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title1: "Breathe Into",
     title2: "Better Days",
     sub: "Feel lighter with mindfulness exercises, relaxing conversations, and emotional wellness tools.",
     glow: "129,140,248",
   },
   {
-    img: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop",
+    img: "https://plus.unsplash.com/premium_photo-1673410154246-4002e211a6fb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title1: "Your Safe",
     title2: "Healing Space",
     sub: "Private support, peaceful experiences, and mental wellness designed for your everyday life.",
@@ -85,7 +85,7 @@ export default function HeroSection({
       <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/35 to-black/60 z-10" />
 
       {/* LIGHT FOG */}
-      <div className="absolute inset-0 bg-white/[0.03] backdrop-blur-[2px] z-10" />
+      <div className="absolute inset-0 bg-white/[0.03] backdrop-blur-[1px] z-10" />
 
       {/* MOUNTAIN FADE */}
       <div className="absolute bottom-0 left-0 w-full h-[30vh] bg-gradient-to-t from-black/70 to-transparent z-10" />

@@ -56,13 +56,7 @@ export default function Relax() {
         
         {/* 3. HERO CONTENT */}
         <div className="text-center mb-20">
-          <motion.div
-            {...fadeInUp}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-md mb-6"
-          >
-            <Sparkles size={14} className="text-cyan-400" />
-            <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-cyan-100/70">Your personal sanctuary</span>
-          </motion.div>
+        
 
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
